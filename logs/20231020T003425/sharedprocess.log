@@ -1,0 +1,11 @@
+2023-10-20 00:34:53.400 [info] Uninstalling extension from the profile: ms-ceintl.vscode-language-pack-zh-hans@1.83.2023101109 vscode-userdata:/root/.vscode/extensions/extensions.json
+2023-10-20 00:34:53.419 [info] Removing language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2023-10-20 00:34:53.464 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-zh-hans-1.83.2023101109
+2023-10-20 00:34:53.491 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)
+2023-10-20 00:34:53.768 [info] Successfully uninstalled extension from the profile ms-ceintl.vscode-language-pack-zh-hans@1.83.2023101109 vscode-userdata:/root/.vscode/extensions/extensions.json

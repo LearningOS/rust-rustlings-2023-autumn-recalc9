@@ -1,0 +1,11 @@
+[2023-10-19T16:34:39.269Z] Stop (226 ms): Run: docker version --format {{.Server.APIVersion}}
+[2023-10-19T16:34:39.269Z] 
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+[2023-10-19T16:34:39.043Z] Dev Containers 0.315.1 in VS Code 1.83.1 (f1b07bd25dfad64b0167beb15359ae573aecd2cc).
+[2023-10-19T16:34:39.043Z] Start: Run: docker version --format {{.Server.APIVersion}}
